@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./img/WhatsApp Image 2024-07-12 at 19.16.55.jpeg"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Eltac <span>Məhərrəmli</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#education">Education</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, I'm <span>Eltac</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p>
+          1 ilə yaxındır bu sahədə təcrübə əldə edirəm. Front End developer
+          olaraq HTML, CSS, JavaScript, React texnologiyalarını öyrənib
+          layihələr də istifadə eləmişəm. TypeScript texnologiyasını öyrənirəm.
+        </p>
+        <div class="social-icons">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/eltac-meherremli/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a target="_blank" href="https://github.com/MhrrmliEltac"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a target="_blank" href="https://www.instagram.com/eltac.mhrrmli1/"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a target="_blank" href="https://www.facebook.com/eltac2000"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+        </div>
+        <div class="btn-group">
+          <a href="#" class="btn">Hire</a>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="./img/WhatsApp Image 2024-07-12 at 19.16.55.jpeg" alt="" />
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <h2 class="heading">Education</h2>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date year">2021-2025</div>
+          <div class="timeline-content">
+            <h3>Ali Təhsil</h3>
+            <p>
+              Azərbaycan Dövlət Neft və Sənaye Universiteti <br />
+              Kompyuter Mühəndisliyi
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024</div>
+          <div class="timeline-content">
+            <h3>Təcrübə (Web Developer)</h3>
+            <p>
+              CodSoft şirkəti Burada remote olaraq tasklar verilmişdi onlar
+              üzərin də işlədim. Front end tərəfin də React.js istifadə edərək
+              layihələr yazırdım. Database olaraq MySql, MongoDB istifadə
+              etmişəm
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Portfolio</h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <div class="portfolio-info">
+            <h4>Coza Store | React</h4>
+            <p>
+              "Coza Store" adlanan bu E-Commerce veb səhifəsini Fake Store
+              API-dan istifadə edərək hazırlamışam. Layihəni React ilə həyata
+              keçirmişəm.
+            </p>
+            <div class="links">
+              <a target="_blank" href="https://coza-store-ecommerce.vercel.app/"
+                >Linkə keçid <i class="bx bx-right-arrow-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <div class="portfolio-info">
+            <h4>Quiz App | HTML, CSS, JS</h4>
+            <p>
+              Quiz App-da api-dan gələn sualları düzgün cavablamaqla sonda neçə
+              düzgün suala cavab vermisiz onu göstərir. Sual-cavab oyunudur.
+            </p>
+            <div class="links">
+              <a
+                target="_blank"
+                href="https://mhrrmlieltac.github.io/QuizApp.github.io/"
+                >Linkə keçid <i class="bx bx-right-arrow-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <div class="portfolio-info">
+            <h4>RSP Game | HTML, CSS, JS</h4>
+            <p>
+              Rock, Paper, Scissors oyunun da random olaraq sizin seçdiynizə
+              qarşı birini seçir. Ya kompyuter ya da siz oyunu qazanırsınız
+            </p>
+            <div class="links">
+              <a
+                target="_blank"
+                href="rs-pgame-3c8b8vakg-eltacs-projects.vercel.app"
+                >Linkə keçid <i class="bx bx-right-arrow-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <div class="portfolio-info">
+            <h4>ValyutaConvert | HTML, CSS, JS</h4>
+            <p>
+              Burada valyuta api ilə 4 valyuta üzrə məzənnəni göstəririk. USD,
+              RUB, EUR, GBP üzrə məzənnəni göstəririk.
+            </p>
+            <div class="links">
+              <a
+                target="_blank"
+                href="https://mhrrmlieltac.github.io/ValyutaConverterTertibat/"
+                >Linkə keçid <i class="bx bx-right-arrow-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <div class="portfolio-info">
+            <h4>MarvelVsDC Game | HTML, CSS, JS</h4>
+            <p>
+              Bu oyunda marvel və dc karakterləri arasın da döyüş olur. Burada
+              local storage-dən istifadə etmişəm. Burada da eynən fight butonuna
+              basdıqda random vuruşlar olur
+            </p>
+            <div class="links">
+              <a target="_blank" href="https://marvel-vs-dc.vercel.app/"
+                >Linkə keçid <i class="bx bx-right-arrow-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form id="contact-form">
+        <div class="input-group">
+          <div class="input-box">
+            <input
+              type="text"
+              name="user_name"
+              class="user_name"
+              id="user-name-input"
+              placeholder="Full Name"
+              required
+            />
+            <input
+              type="email"
+              name="user_email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <input
+              type="number"
+              name="user_phone"
+              placeholder="Phone Number"
+              required
+            />
+            <input type="text" name="subject" placeholder="Subject" required />
+          </div>
+        </div>
+        <div class="input-group-2">
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </div>
+      </form>
+    </section>
+
+    <div id="notification" class="notification"></div>
+
+    <footer class="footer">
+      <div class="social">
+        <a target="_blank" href="https://www.linkedin.com/in/eltac-meherremli/"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a target="_blank" href="https://github.com/MhrrmliEltac"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a target="_blank" href="https://www.instagram.com/eltac.mhrrmli1/"
+          ><i class="bx bxl-instagram-alt"></i
+        ></a>
+        <a target="_blank" href="https://www.facebook.com/eltac2000"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+      </div>
+      <ul class="list">
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#home">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p class="copyright">Eltac Maharramli | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
