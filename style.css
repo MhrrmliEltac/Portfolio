@@ -479,6 +479,12 @@ span {
   }
 }
 @media (max-width: 895px) {
+  .portfolio-box {
+    height: fit-content !important;
+  }
+  .portfolio-info {
+    max-height: fit-content !important;
+  }
   #menu-icon {
     display: block;
   }
@@ -530,6 +536,11 @@ span {
   }
   .home-img img {
     width: 56vw;
+  }
+}
+@media (max-width: 425px) {
+  .links {
+    margin-top: 60px !important;
   }
 }
 .portfolio {
