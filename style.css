@@ -15,6 +15,30 @@
   --main-color: #80ffee;
 }
 
+.skills-section {
+  text-align: center;
+  margin: auto;
+  background-color: #1e1e1e;
+  padding: 10rem 6% 10rem;
+}
+.skills-section i {
+  font-size: 150px;
+}
+
+.bottom-slider {
+  margin-top: 5rem;
+}
+
+.swiper-slide {
+  background-color: #333;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 html {
   font-size: 60%;
   overflow-x: hidden;

@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Eltac Məhərrəmli Front End Developer Portfolio"
+    />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -14,7 +18,16 @@
       href="./img/WhatsApp Image 2024-07-12 at 19.16.55.jpeg"
       type="image/x-icon"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <body>
     <header class="header">
@@ -24,7 +37,7 @@
 
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
-        <a href="#education">Education</a>
+        <a href="#education">Experience</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -32,12 +45,12 @@
 
     <section class="home" id="home">
       <div class="home-content">
-        <h1>Hi, I'm <span>Eltac</span></h1>
-        <h3 class="text-animation">I'm a <span></span></h3>
-        <p>
+        <h1>Salam, Mən <span>Eltac</span></h1>
+        <h3 class="text-animation"><span></span></h3>
+        <p style="width: 50%">
           Bu sahə üzrə təcrübə əldə edirəm. Front End developer olaraq HTML,
-          CSS, JavaScript, React texnologiyalarını öyrənib layihələr də istifadə
-          eləmişəm. TypeScript texnologiyasını öyrənirəm.
+          CSS, JavaScript, React, TypeScript texnologiyalarını öyrənib layihələr
+          də istifadə eləmişəm.
         </p>
         <div class="social-icons">
           <a
@@ -56,7 +69,12 @@
           ></a>
         </div>
         <div class="btn-group">
-          <a href="#" class="btn">Hire</a>
+          <a
+            href="https://github.com/user-attachments/files/19247030/Resume.-.Eltac.Maharramli.pdf"
+            class="btn"
+            download="Resume.-.Eltac.Maharramli.pdf"
+            >CV download</a
+          >
           <a href="#contact" class="btn">Contact</a>
         </div>
       </div>
@@ -65,20 +83,9 @@
       </div>
     </section>
 
-    <section class="education" id="education">
-      <h2 class="heading">Education</h2>
+    <section class="experience" id="experience">
+      <h2 class="heading">Experience</h2>
       <div class="timeline-items">
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date year">2021-2025</div>
-          <div class="timeline-content">
-            <h3>Ali Təhsil</h3>
-            <p>
-              Azərbaycan Dövlət Neft və Sənaye Universiteti <br />
-              Kompyuter Mühəndisliyi
-            </p>
-          </div>
-        </div>
         <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-date">2024 / 1 month</div>
@@ -93,12 +100,124 @@
             <h3>Front End Developer Intern | Buta Group Azerbaijan</h3>
           </div>
         </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date year">2025 / Present</div>
+          <div class="timeline-content">
+            <h3>Front End Developer Intern | E.S.A.M Innovations MMC</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section">
+      <div class="swiper mySwiper top-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <i class="bx bxl-html5" style="color: #e34f26"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-css3" style="color: #1572b6"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-javascript" style="color: #f7df1e"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-react" style="color: #61dafb"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-typescript" style="color: #3178c6"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-redux" style="color: #764abc"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-tailwind-css" style="color: #38b2ac"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-nodejs" style="color: #68a063"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-mongodb" style="color: #47a248"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-nodejs" style="color: #68a063"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper mySwiper bottom-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <i class="bx bxl-html5" style="color: #e34f26"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-css3" style="color: #1572b6"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-javascript" style="color: #f7df1e"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-react" style="color: #61dafb"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-typescript" style="color: #3178c6"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-redux" style="color: #764abc"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-tailwind-css" style="color: #38b2ac"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-nodejs" style="color: #68a063"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-mongodb" style="color: #47a248"></i>
+          </div>
+          <div class="swiper-slide">
+            <i class="bx bxl-nodejs" style="color: #68a063"></i>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="portfolio" id="portfolio">
       <h2 class="heading">Portfolio</h2>
       <div class="portfolio-container">
+        <div class="portfolio-box">
+          <div class="portfolio-info">
+            <h4>Bouquet | TypeScript</h4>
+            <p>
+              Bu, onlayn satış üçün nəzərdə tutulmuş veb səhifədir. Layihədə
+              TypeScript, Framer Motion, komponent əsaslı arxitektura və digər
+              müasir React texnologiyalarından istifadə olunmuşdur.
+            </p>
+            <div class="links">
+              <a target="_blank" href="http://bqt.studentall.az/"
+                >Linkə keçid <i class="bx bx-right-arrow-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <div class="portfolio-info">
+            <h4>Furniture Website | TypeScript</h4>
+            <p>
+              Bu, müxtəlif mebel məhsullarının onlayn satışını təmin edən veb
+              səhifədir. Saytın frontend hissəsi React, TypeScript, Framer
+              Motion və Redux kimi texnologiyalarla qurulmuşdur. Backend isə
+              Express.js və MongoDB istifadə edilərək hazırlanmışdır. Saytda
+              məhsul filtrasiyası, kateqoriya əsaslı axtarış, istifadəçi
+              hesabları, səbət funksionallığı və dinamik animasiyalar mövcuddur.
+            </p>
+            <div class="links">
+              <a target="_blank" href="https://furnite-ui.vercel.app/"
+                >Linkə keçid <i class="bx bx-right-arrow-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
         <div class="portfolio-box">
           <div class="portfolio-info">
             <h4>ToDo List | TypeScript</h4>
@@ -332,5 +451,35 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+      const topSwiper = new Swiper(".top-slider", {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+          0: { slidesPerView: 1 },
+          768: { slidesPerView: 3 },
+        },
+      });
+
+      const bottomSwiper = new Swiper(".bottom-slider", {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+          reverseDirection: true,
+        },
+        breakpoints: {
+          0: { slidesPerView: 1 },
+          768: { slidesPerView: 3 },
+        },
+      });
+    </script>
   </body>
 </html>
